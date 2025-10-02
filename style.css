@@ -1,0 +1,212 @@
+:root {
+    --bg-color-header: #2563ed;
+    --bg-color-main: #0f47c0;
+    --bg-color-footer: #2563ed;
+}
+
+* {
+    font: 12pt white Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    padding: 15px;
+    background-color: var(--bg-color-header);
+}
+
+header h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: start;
+}
+
+main {
+    flex: 1;
+    background-color: var(--bg-color-main);
+}
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    background-color: var(--bg-color-footer);
+    text-align: center;
+}
+
+footer p {
+    font-size: 10pt;
+}
+
+.footer-links {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 10pt;
+}
+
+.caixa {
+    
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 40px;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-Frontdev {
+    color: white;
+    padding: 30px;
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-Frontdev h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container-Frontdev p {
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
+.container-Frontdev div {
+    margin-bottom: 15px;
+}
+
+.box-in {
+    background-color: var(--bg-color-header);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.content-left li {
+    font-weight: bold;
+}
+
+.container-login {
+    background-color:white;
+    color: black;
+    padding: 15px;
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.entrar-cadastro {
+    display: flex;
+    padding: 5px;
+    border-radius: 13px;
+    justify-content: center;
+    background-color: rgb(239, 239, 239);
+    gap: 2px;
+}
+
+#entrar {
+    color: #0f47c0;
+    border-bottom: 2px solid var(--bg-color-header);
+    background-color: white;
+}
+
+.button-box {
+    font-weight: bold;
+    font-size: 9pt;
+    text-align: center;
+    width: 100vh;;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 10px;
+    transition: all  0s ease;
+}
+
+#cadastro:hover {
+    background-color: white;
+    border-bottom: 2px solid var(--bg-color-header);
+    color: #0f47c0;
+}
+
+.login-title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.login-title h1 {
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container-login label {
+    margin-left: 10px;
+    font-size: 10pt;
+}
+
+.input-box {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+#email, #senha {
+    display: flex;
+    width: 420px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#email:focus, #senha:focus {
+    outline: none;
+    border: 2px solid var(--bg-color-header);
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.options div {
+    display: flex;
+    align-items: center;
+}
+
+.options label {
+    font-size: 14px;
+}
+
+.options a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--bg-color-header);
+}
+
+.button-entrar {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--bg-color-header);
+    color: white;
+    font-size: 10pt;
+    font-weight: bold;
+    cursor: pointer;
+}
