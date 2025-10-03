@@ -11,7 +11,7 @@ O objetivo é praticar conceitos de **responsividade, estilização e estrutura�
 Tela de Login e Cadastro estilizadas em HTML + CSS.
 
 ```markdown
-![Prévia do FrontDev](./screenshot.png)
+![Prévia do FrontDev](./assets/img/demo.gif)
 ```
 
 ---
