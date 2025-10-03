@@ -10,8 +10,6 @@ O objetivo é praticar conceitos de **responsividade, estilização e estrutura�
 
 Tela de Login e Cadastro estilizadas em HTML + CSS.
 
-*(Adicione aqui uma imagem/screenshot do projeto rodando, exemplo:)*
-
 ```markdown
 ![Prévia do FrontDev](./screenshot.png)
 ```
@@ -47,7 +45,7 @@ FrontDev/
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/FrontDev.git
+   git clone https://github.com/pablosousaa/FrontDev.git
    ```
 2. Abra a pasta do projeto:
 
