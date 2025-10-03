@@ -10,9 +10,7 @@ O objetivo é praticar conceitos de **responsividade, estilização e estrutura�
 
 Tela de Login e Cadastro estilizadas em HTML + CSS.
 
-```markdown
 ![Prévia do FrontDev](./assets/img/demo.gif)
-```
 
 ---
 
@@ -32,6 +30,8 @@ FrontDev/
 │   └── css/
 │       ├── login.css
 │       └── cadastro.css
+│   └── img/
+│       └── demo.gif
 ├── views/
 │   ├── login.html
 │   └── cadastro.html
