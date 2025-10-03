@@ -96,6 +96,11 @@ footer p {
     font-weight: bold;
     border-radius: 5px;
     padding: 16px;
+    transition: all 0.6s ease;
+}
+
+.box-in:hover {
+    transform: scale(1.05);
 }
 
 .content-left li {
@@ -122,6 +127,7 @@ footer p {
 
 #entrar {
     color: #0f47c0;
+    text-decoration: none;
     border-bottom: 2px solid var(--bg-color-header);
     background-color: white;
 }
@@ -135,6 +141,11 @@ footer p {
     margin: 1px;
     border-radius: 10px;
     transition: all  0s ease;
+}
+
+#cadastro {
+    color: black;
+    text-decoration: none;
 }
 
 #cadastro:hover {
@@ -201,7 +212,7 @@ footer p {
 
 .button-entrar {
     width: 100%;
-    padding: 10px;
+    padding: 13px;
     border: none;
     border-radius: 10px;
     background-color: var(--bg-color-header);
@@ -209,4 +220,9 @@ footer p {
     font-size: 10pt;
     font-weight: bold;
     cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.button-entrar:hover {
+    transform: scale(1.02);
 }
