@@ -10,7 +10,7 @@ O objetivo é praticar conceitos de **responsividade, estilização e estrutura�
 
 Tela de Login e Cadastro estilizadas em HTML + CSS.
 
-![Prévia do FrontDev](./assets/img/demo.gif)
+![Prévia do FrontDev](https://github.com/pablosousaa/FrontDev-2025/blob/main/Pagina%20de%20Login/assets/img/demo.gif)
 
 ---
 
